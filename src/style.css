@@ -1,16 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    border-style: none;
+    font-family: 'Ubuntu Mono', monospace;
+    color: var(--text-color);
+}
+
+html{
+    height: 100vh;
 }
 
 a{
     text-decoration: none;
-    color: #000;
+    color: var(--text-color);
 }
 
-input[type=number]::-webkit-inner-spin-button{
-    -webkit-appearance: none;
+a:hover{
+    color: var(--details-color);
+}
+
+button a:hover{
+    color: var(--text-color);
 }
 
 header{
@@ -18,4 +27,79 @@ header{
     align-items: center;
     justify-content: center;
     padding: 1em;
+    gap: 1.2em;
+}
+
+button{
+    background-color: var(--bg-color);
+    padding: 1em 1.5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--details-color);
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.numero{
+    width: 15em;
+    height: 1.5em;
+    text-align: center;
+    border: 2px solid var(--bg-color);
+    border-radius: 0.5em;
+}
+
+.send{
+    background-color: var(--bg-color);
+    padding: 0.6em 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 0.7em;
+    transition: 0.3s ease-in-out;
+}
+
+.send:hover{
+    background-color: var(--details-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 2.5em;
+    gap: 0.7em;
+}
+
+.infos h1{
+    font-size: 3.5em;
+    text-align: center;
+    height: 100%;
+}
+
+.input label{
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 3em;
 }
