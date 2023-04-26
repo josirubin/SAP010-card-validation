@@ -82,7 +82,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 30%;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
     gap: 0.7em;
 }
 
@@ -92,14 +92,32 @@ main{
     height: 100%;
 }
 
-.input label{
+.input{
     text-align: center;
     font-size: 0.8em;
-    margin-bottom: 0.5em;
+}
+
+.input .numero{
+    margin-top: 0.5em;
 }
 
 footer{
     text-align: center;
     font-size: 0.7em;
     margin-top: 3em;
+}
+
+form p{
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    border: 2px solid var(--details-color);
+    border-radius: 0.5em;
+    width: 80%;
+}
+
+span{
+    text-align: center;
+    width: 80%;
+    color: var(--bg-color);
 }
