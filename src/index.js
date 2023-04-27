@@ -7,8 +7,8 @@ const botao = document.getElementById("btn-enviar"); //pega o botão
 botao.addEventListener("click", function (event) {
   event.preventDefault(); //impede que o formulário seja enviado
   if (nmrCartao.value === ""){
-  return document.getElementById("resultado").innerHTML = "Digite o número do cartão";
-}
+    return document.getElementById("resultado").innerHTML = "Digite o número do cartão";
+  }
   const texto = nmrCartao.value; //pega o botao
   const maskedNumbers = validator.maskify(texto);  //guarda os números mascarados
   if (validator.isValid(texto)) {  //utiliza a função de validação
