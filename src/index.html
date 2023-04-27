@@ -26,20 +26,19 @@
       <p>O validador utiliza o Algoritmo Luhn para fazer a verificação do número do seu cartão. Para maiores informações
         sobre o Algoritmo <a href="./luhn.html">clique aqui</a>.</p>
     </div>
-    <form>
+    <form id="form">
       <div class="input">
         <label for="nmr-cartao">Digite o número do cartão</label><br>
         <input name="nmr-cartao"
           oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');"
-          type="text" maxlength="16" required id="nmr-cartao" placeholder="0000 0000 0000 0000" class="numero">
+          type="text" maxlength="16" required id="nmr-cartao" placeholder="0000 0000 0000 0000" class="numero" value=""/>
         <button id="btn-enviar">Validar</button>
-        <p id="resultado" onclick="zeraInput()">O resultado da validação aparecerá aqui.</p>
-    </form>
+        <p id="resultado">O resultado da validação aparecerá aqui.</p>
     </div>
+  </form>
   </main>
   <footer>
-    <p>Projeto desenvolvido por <a href="https://www.linkedin.com/in/josielen-rubin-076ab397/" target="_blank">Josielen
-        Rubin</a> para a turma SAP010 - Laboratória</p>
+    <p>Projeto desenvolvido por <a href="https://www.linkedin.com/in/josielen-rubin-076ab397/" target="_blank">Josielen Rubin</a> para a turma SAP010 - Laboratória</p>
   </footer>
   <script src="index.js" type="module"></script>
 </body>
