@@ -20,8 +20,8 @@ Pensei em um layout o mais direto e claro possível, para que o usuário não "s
 | Cor               | Hexadecimal                                                |
 | ----------------- | --------------------------------------------------------------- |
 | Cor do texto      | ![#0B1B1E](https://via.placeholder.com/10/0a192f?text=+) #0B1B1E |
-| Cor do background       | ![#899B82](https://via.placeholder.com/10/f8f8f8?text=+) #899B82 |
-| Cor dos detalhes       | ![#EDD5BF](https://via.placeholder.com/10/00b48a?text=+) #EDD5BF |
+| Cor do background | ![#899B82](https://via.placeholder.com/10/f8f8f8?text=+) #899B82 |
+| Cor dos detalhes  | ![#EDD5BF](https://via.placeholder.com/10/00b48a?text=+) #EDD5BF |
 
 
 ## Referência
