@@ -11,7 +11,6 @@ const validator = {
 
     for (let i = 0; i < nmrCartaoInvertido.length; i++) {
       if (i % 2 !== 0) {  //verifica se o indice é par ou impar
-
         if (nmrCartaoInvertido[i] * 2 > 9) {   //verifica se o número obtido da posição par, quando multiplicado é maior que 9
           somaDig = nmrCartaoInvertido[i] * 2;
           const temp = somaDig.toString().split('');  //transforma esse número maior que 9 em uma string
