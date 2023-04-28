@@ -1,4 +1,4 @@
-import validator from './validator.js';
+import validator from './validator';
 
 
 const nmrCartao = document.getElementById("nmr-cartao"); //pega o input
